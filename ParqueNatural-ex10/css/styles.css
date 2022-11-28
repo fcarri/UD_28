@@ -1,0 +1,54 @@
+body {
+    font-family: "Lucida Sans Unicode";
+    }
+    h1 {
+        font-family: "Lucida Sans Unicode";
+        color:burlywood;
+        text-indent: 10px;
+    }
+    h2 {
+        font-family: "Lucida Sans Unicode";
+        color:rgb(150, 211, 58);
+        text-indent: 10px;
+        border-bottom: 1px solid green;
+    }
+    p.p1 {
+        text-indent: 10px;
+        margin-left: 10px;
+    }
+    h3{
+        text-indent: 10px;
+        margin-left: 10px;
+        color:burlywood;
+    }
+
+    .left {
+      position: absolute;
+      left: 150px;
+      width: 700px;
+      padding: 10px;
+    }
+      
+    .link1{
+        background-color: burlywood;
+        color: black;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        background-image: linear-gradient(burlywood, coral)
+    }
+    .link2{
+        background-color: green;
+        color: black;
+        padding: 10px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        background-image: linear-gradient(green, Darkgreen)
+    }
+    
+    a:hover, a:active {
+      background-color: gray;
+      color:white;
+    }
